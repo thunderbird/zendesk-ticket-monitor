@@ -1,0 +1,12 @@
+zendesk:
+  subdomain: "mycompany"
+  email: "monitor@company.com"
+  api_token: "${ZENDESK_API_TOKEN}"
+
+query:
+  bucket_minutes: 5
+
+detection:
+  mode: "threshold"
+  multiplier: 2.0
+  min_delta: 15

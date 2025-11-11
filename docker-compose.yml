@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  spike-monitor:
+    build: .
+    volumes:
+      - ./config.yaml:/app/config.yaml:ro
+      - ./data:/app/data
