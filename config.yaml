@@ -1,6 +1,6 @@
 zendesk:
-  subdomain: "mycompany"
-  email: "monitor@company.com"
+  subdomain: "tbpro"
+  email: "lwess@thunderbird.net"
   api_token: "${ZENDESK_API_TOKEN}"
 
 query:
